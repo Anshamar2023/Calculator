@@ -1,0 +1,41 @@
+body {
+    display: flexbox;
+    justify-items: center;
+}
+
+button {
+    height: 70px;
+    width: 100px;
+    margin: 2px;
+    border-radius: 50%;
+    background-color: rgb(178, 176, 176);
+}
+
+input {
+    border-radius: 50px;
+    height: 100px;
+    width: 420px;
+    margin-bottom: 20px;
+    background: #000;
+    color: white;
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.symbol {
+    background-color: rgb(255, 178, 36);
+}
+
+button:hover {
+    background-color: rgb(221, 160, 22);
+}
+
+button:active {
+    background-color: rgb(192, 128, 19);
+}
+
+#Calculator {
+    margin-top: 100px;
+    background-color: #000;
+    border-radius: 50px;
+}
